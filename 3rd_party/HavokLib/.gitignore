@@ -1,0 +1,9 @@
+*.bat
+*.d
+
+*hkaWaveletDecompressor*
+
+.vscode/
+build/
+test/resources*
+lib/

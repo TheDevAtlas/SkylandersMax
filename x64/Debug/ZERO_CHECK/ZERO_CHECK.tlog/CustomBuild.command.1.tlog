@@ -1,0 +1,10 @@
+^C:\USERS\JACOB\DOCUMENTS\GITHUB\HAVOKMAX\CMAKEFILES\9396525C65EFCDAC8B9F76C68BBEADF6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jacob/Documents/GitHub/HavokMax -BC:/Users/jacob/Documents/GitHub/HavokMax --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jacob/Documents/GitHub/HavokMax/HavokMax.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

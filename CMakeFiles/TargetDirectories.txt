@@ -1,0 +1,13 @@
+C:/Users/jacob/Documents/GitHub/HavokMax/CMakeFiles/HavokMax.dir
+C:/Users/jacob/Documents/GitHub/HavokMax/CMakeFiles/INSTALL.dir
+C:/Users/jacob/Documents/GitHub/HavokMax/CMakeFiles/ALL_BUILD.dir
+C:/Users/jacob/Documents/GitHub/HavokMax/CMakeFiles/ZERO_CHECK.dir
+C:/Users/jacob/Documents/GitHub/HavokLib/CMakeFiles/INSTALL.dir
+C:/Users/jacob/Documents/GitHub/HavokLib/CMakeFiles/ALL_BUILD.dir
+C:/Users/jacob/Documents/GitHub/HavokLib/3rd_party/PreCore/CMakeFiles/INSTALL.dir
+C:/Users/jacob/Documents/GitHub/HavokLib/3rd_party/PreCore/CMakeFiles/ALL_BUILD.dir
+C:/Users/jacob/Documents/GitHub/HavokLib/3rd_party/PugiXml/CMakeFiles/pugixml.dir
+C:/Users/jacob/Documents/GitHub/HavokLib/3rd_party/PugiXml/CMakeFiles/INSTALL.dir
+C:/Users/jacob/Documents/GitHub/HavokLib/3rd_party/PugiXml/CMakeFiles/ALL_BUILD.dir
+C:/Users/jacob/Documents/GitHub/HavokLib/source/CMakeFiles/havok-objects.dir
+C:/Users/jacob/Documents/GitHub/HavokLib/source/CMakeFiles/INSTALL.dir

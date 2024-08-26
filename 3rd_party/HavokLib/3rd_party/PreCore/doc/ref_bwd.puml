@@ -1,0 +1,39 @@
+@startuml ref_bwd
+title Basic workflow diagram
+package Header <<Frame>> {
+    object "REFLECTOR_CREATE(...)" as RCE
+    RCE : classType
+    RCE : ENUM
+    RCE : numFlags
+    RCE : enumFlags ...
+    RCE : class members
+    note right of RCE
+        A macro for creating
+        reflected enumeration
+    end note
+}
+
+
+package "Source Unit" <<Frame>> {
+    object "REFLECTOR_CREATE(...)" as REFLECTOR_CREATE
+    REFLECTOR_CREATE : classType
+    REFLECTOR_CREATE : numFlags
+    REFLECTOR_CREATE : flags ...
+    REFLECTOR_CREATE : class members
+    note right of REFLECTOR_CREATE
+        A macro for creating
+        reflection definition
+    end note
+    node "Single call function" as SCF {
+        object "RegisterReflectedTypes<...>()" as REFLECTOR_REGISTER
+        REFLECTOR_REGISTER : classes and enums
+    }
+    note bottom of REFLECTOR_REGISTER
+        A class factory for adding
+        reflected classes and
+        enums into global registry
+    end note
+
+    REFLECTOR_CREATE -[hidden]down- SCF
+}
+@enduml

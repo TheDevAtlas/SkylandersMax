@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokExport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokImport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jacob\Documents\GitHub\HavokMax\src\DllEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jacob\Documents\GitHub\HavokMax\3rd_party\HavokLib\3rd_party\PreCore\datas\directory_scanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jacob\Documents\GitHub\HavokMax\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\core_motion.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\core_registry.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\format_new.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\format_old.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hk_packfile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_delta_decompressor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_spline_decompressor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_losslesscompressedanimation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hk_rootlevelcontainer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_animationbinding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_animationcontainer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_defaultanimrefframe.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_deltaanimation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_interleavedanimation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_skeleton.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_splineanimation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hka_waveletanimation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\hkx_environment.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\base.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\master_printer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\matrix44.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\reflector.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\jacob\Documents\GitHub\HavokLib\source\havok-objects.dir\$(Configuration)\reflector_xml.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="C:\Users\jacob\Documents\GitHub\HavokMax\3rd_party\HavokLib\3rd_party\PreCore\MAXex\win\About.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="C:\Users\jacob\Documents\GitHub\HavokMax\HavokMax_\verinfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{73F92550-1AE0-3FBF-B72E-2F778A7E2F3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D44A2567-C73B-38AA-AEF7-0E0E029081B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

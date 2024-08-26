@@ -1,0 +1,15 @@
+﻿  HavokMax.cpp
+C:\Users\jacob\Documents\GitHub\HavokMax\3rd_party\HavokLib\3rd_party\PreCore\datas\pugi_fwd.hpp(30,11): warning C4099: 'pugi::xml_parse_result': type name first seen using 'struct' now seen using 'class'
+  (compiling source file 'src/HavokMax.cpp')
+      C:\Users\jacob\Documents\GitHub\HavokMax\3rd_party\HavokLib\3rd_party\PugiXml\src\pugixml.hpp(974,23):
+      see declaration of 'pugi::xml_parse_result'
+  
+C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.cpp(445,34): warning C4838: conversion from 'const char' to 'const TCHAR' requires a narrowing conversion
+C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.cpp(445,45): warning C4838: conversion from 'const char' to 'const TCHAR' requires a narrowing conversion
+C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.cpp(445,56): warning C4838: conversion from 'const char' to 'const TCHAR' requires a narrowing conversion
+C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.cpp(751,24): warning C4244: 'return': conversion from 'INT_PTR' to 'int', possible loss of data
+C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.cpp(758,24): warning C4244: 'return': conversion from 'INT_PTR' to 'int', possible loss of data
+C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.cpp(972,35): warning C4244: '=': conversion from 'LRESULT' to 'int32', possible loss of data
+C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.cpp(980,24): warning C4244: 'return': conversion from 'INT_PTR' to 'int', possible loss of data
+C:\Users\jacob\Documents\GitHub\HavokMax\src\HavokMax.cpp(997,24): warning C4244: 'return': conversion from 'INT_PTR' to 'int', possible loss of data
+  HavokMax.vcxproj -> C:\Program Files\Autodesk\3ds Max 2022\plugins\HavokMax.dlu
